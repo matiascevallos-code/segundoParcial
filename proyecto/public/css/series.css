@@ -1,0 +1,13 @@
+.mainSerie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    margin: 0 10%;
+    text-align: justify;
+}
+
+.mainSerie img {
+    width: 50%;
+    max-width: 600px;
+}

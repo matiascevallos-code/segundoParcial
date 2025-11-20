@@ -1,0 +1,116 @@
+* {
+    font-family: 'Zilla Slab', serif;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-color: #C19A6B;
+    margin: 0px;
+}
+
+nav {   
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    gap: 1.5rem;
+    justify-content: center;    
+    padding: 10px 0;
+}
+
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color:#c2c2c2;
+    background-color: black;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ff9900;
+    transform: scale(1.05);
+
+}
+
+.logo {
+    width: 100px;
+    margin-right: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    margin: 0 10%;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+color: white;
+background-color: black;
+text-align: center;
+padding: 20px;
+width: 100%;
+}
+
+/*
+
+.temporadas {
+    text-align: center;
+}
+
+
+.introduccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li img {
+  width: 20%;
+}
+
+.temporadas {
+    width: 30%;
+}
+
+.principalImg {
+    display: flex;
+    justify-content: center;    
+}
+
+.principalImg img {
+   width:"800px"; 
+   height:"552px";
+}
+
+
+
+.redesSoc {
+    text-decoration: none;
+    color: white;
+}
+
+.mainContacto {
+    margin-bottom: 50px;
+}
+
+.mainSerie {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.mainSerie img {
+    width: 50%;
+}
+    
+*/
