@@ -25,6 +25,7 @@
     border-radius: 8px;
     border: none;
     display: block;
+    transition: 0.2s ease-in-out;
 }
 
 .temporadasImg:hover {
