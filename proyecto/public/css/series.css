@@ -11,3 +11,9 @@
     width: 50%;
     max-width: 600px;
 }
+
+.divVideo h2 {
+    display: flex;
+    justify-content: center;
+
+}

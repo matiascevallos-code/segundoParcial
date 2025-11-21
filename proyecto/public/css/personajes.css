@@ -7,18 +7,27 @@
     justify-content: center;
 }
 
-.personajes li {
-    
+.personajes li {    
+    display: flex;
+    flex-direction: column;
     padding: 20px;
-    border: 1px solid #777;
+    border: 1px solid;
     background-color: rgba(10, 9, 9, 0.1);
     flex: 1 1 300px;
     max-width: 400px;
-    transition: transform 0.3s ease-in-out;
+}
+.personajes li h3 {
+    margin-top: 0; 
+}
+
+.personajes li p {
+    flex-grow: 1; 
 }
 
 .personajes li img {
     width: 100%;
-    height: auto;
+    height: 400px;
     margin-top: 15px;
+    object-fit: cover;
+    border-radius: 5px;
 }

@@ -7,7 +7,9 @@ body {
     color: white;
     background-color: #C19A6B;
     margin: 0px;
+    overflow-x: hidden;
 }
+
 
 nav {   
     display: flex;
@@ -44,6 +46,7 @@ main {
     flex-direction: column;
     padding: 50px;
     margin: 0 10%;
+    overflow-x: hidden;
 }
 
 .titulo {
@@ -58,59 +61,3 @@ text-align: center;
 padding: 20px;
 width: 100%;
 }
-
-/*
-
-.temporadas {
-    text-align: center;
-}
-
-
-.introduccion {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-ul li img {
-  width: 20%;
-}
-
-.temporadas {
-    width: 30%;
-}
-
-.principalImg {
-    display: flex;
-    justify-content: center;    
-}
-
-.principalImg img {
-   width:"800px"; 
-   height:"552px";
-}
-
-
-
-.redesSoc {
-    text-decoration: none;
-    color: white;
-}
-
-.mainContacto {
-    margin-bottom: 50px;
-}
-
-.mainSerie {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px;
-}
-
-.mainSerie img {
-    width: 50%;
-}
-    
-*/

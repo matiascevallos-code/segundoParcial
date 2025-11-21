@@ -14,34 +14,34 @@
 
 <body>
     <nav>
-        <a href="../web/index.html"><img src="../public/img/logo.jpg" class="logo"></a>
-        <a href="../routes/serie.html">SOBRE LA SERIE</a>
-        <a href="../routes/personajes.html">PERSONAJES</a>
-        <a href="../routes/temporadas.html">TEMPORADAS</a>
-        <a href="../routes/curiosidades.html">CURIOSIDADES</a>
-        <a href="../routes/contacto.html">CONTACTO</a>
+        <a href="../index.html"><img src="../public/img/logo.jpg" class="logo"></a>
+        <a href="./serie.html">SOBRE LA SERIE</a>
+        <a href="./personajes.html">PERSONAJES</a>
+        <a href="./temporadas.html">TEMPORADAS</a>
+        <a href="./curiosidades.html">CURIOSIDADES</a>
+        <a href="./contacto.html">CONTACTO</a>
     </nav>
     <main class="mainContacto">
         <h1 class="titulo">CONTACTO</h1>
-        <form class="formContact">
+        <form class="formContact" action="../routes/confirmacion.html" method="get">
             <div class="grupoForm">
                 <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre">
+                <input type="text" id="nombre" name="nombre" required>
             </div>
 
             <div class="grupoForm">
                 <label for="apellido">Apellido:</label>
-                <input type="text" id="apellido" name="apellido">
+                <input type="text" id="apellido" name="apellido" required>
             </div>
 
             <div class="grupoForm">
-                <label for="apellido">Correo electronico:</label>
-                <input type="email" id="email" name="email">
+                <label for="email">Correo electronico:</label>
+                <input type="email" id="email" name="email" required>
             </div>
 
             <div class="grupoForm">
-                <label for="apellido">Mensaje:</label>
-                <input type="mensaje" id="mensaje" name="mensaje">
+                <label for="mensaje">Mensaje:</label>
+                <textarea type="mensaje" id="mensaje" name="mensaje" required></textarea>
             </div>
             <button type="submit" class="btn-enviar">Enviar Mensaje</button>
 
@@ -54,17 +54,17 @@
 
         <h3>Redes sociales oficiales de Peaky Blinders:</h3>
 
-        <i class="fab fa-instagram"></i> <a class="redesSoc"
-            href="https://www.instagram.com/peakyblindersofficial/">Instagram oficial</a>
+        <i class="fab fa-instagram"> <a class="redesSoc"
+            href="https://www.instagram.com/peakyblindersofficial/">Instagram oficial</a></i>
 
-        <i class="fab fa-facebook-f"></i> <a class="redesSoc" href="https://www.facebook.com/PeakyBlinders/">Facebook
-            oficial</a>
+        <i class="fab fa-facebook-f"> <a class="redesSoc" href="https://www.facebook.com/PeakyBlinders/">  Facebook
+            oficial</a></i>
 
-        <i class="fa-brands fa-twitter"></i> <a class="redesSoc" href="https://x.com/thepeakyblinder">Twitter/X
-            oficial</a>
+        <i class="fa-brands fa-twitter"> <a class="redesSoc" href="https://x.com/thepeakyblinder">Twitter/X
+            oficial</a></i>
 
-        <i class="fa-brands fa-youtube"></i> <a class="redesSoc" href="https://www.youtube.com/@bbc">YouTube (BBC /
-            clips oficiales)</a>
+        <i class="fa-brands fa-youtube"> <a class="redesSoc" href="https://www.youtube.com/@bbc">YouTube (BBC /
+            clips oficiales)</a></i>
 
         <h3>Plataformas de streaming:</h3>
 

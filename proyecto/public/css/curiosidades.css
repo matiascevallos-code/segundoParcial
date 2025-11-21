@@ -1,0 +1,21 @@
+.mainCuriosidades {
+    margin-top: 30px;
+}
+
+h3, h2 {
+    margin-top: 30px;
+    color: #292621;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgba(255, 153, 0, 0.3);
+}
+
+.mainCuriosidades p {
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    
+}
+
+.mainCuriosidades p:hover {
+    background-color: rgb(10, 9, 9, 0.25);
+}
